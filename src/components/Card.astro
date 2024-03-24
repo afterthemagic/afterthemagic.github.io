@@ -5,7 +5,7 @@ interface Props {
 	href: string;
 }
 
-const { href, title, body } = Astro.props;
+const { href, title, body, make_it_cool } = Astro.props;
 ---
 
 <li class="link-card">
@@ -15,7 +15,7 @@ const { href, title, body } = Astro.props;
 			<span>&rarr;</span>
 		</h2>
 		<h2 class="text-3xl font-bold">
-			<span class="font-bold">$</span>{make_it_cool}
+			<span class="text-main-1">$</span> <span class="text-background-3">ls</span> {make_it_cool}<span class="text-background-3">/</span>
 		</h2>
 		<p>
 			{body}

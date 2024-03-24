@@ -18,6 +18,7 @@ module.exports = {
 		'main-2': '#9EAD41',
 		'background-1': '#121000',
 		'background-2': '#161700',
+		'background-3': '#1B1C00',
 	  }
 	}
   }
